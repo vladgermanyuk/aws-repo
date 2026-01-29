@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /build/my-nodejs-app.tar
+  - source: build/my-nodejs-app.tar  # Убрал ведущий слэш
     destination: /tmp/my-nodejs-app/
 hooks:
   AfterInstall:
