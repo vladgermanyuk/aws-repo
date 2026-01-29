@@ -18,3 +18,4 @@ phases:
     commands:
       - echo Build completed on `date`
       - docker push 547445247510.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
+
