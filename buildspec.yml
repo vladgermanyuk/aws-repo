@@ -12,6 +12,6 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - docker tag my-app:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
+      - docker tag my-app:latest 547445247510.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
       - $(aws ecr get-login --no-include-email --region us-east-1)
-      - docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
+      - docker push 547445247510.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
